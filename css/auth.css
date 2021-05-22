@@ -234,3 +234,9 @@
       align-items: center;
       flex-direction: column;
   }
+
+
+  .makeor{
+    background-color: orangered;
+    color: white;
+  }
