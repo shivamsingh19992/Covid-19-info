@@ -1,0 +1,555 @@
+
+@font-face {
+    font-family: newf ;
+    src: url(./../fonts/MrGrieves-Regular.otf);
+}
+
+
+.loader{
+
+    background-image: url(./../images/intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+overflow-y: hidden;
+overflow: hidden;
+scroll-behavior: smooth;
+position: fixed;
+z-index: 999;
+}
+
+
+.covidtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wait{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: newf;
+
+}
+
+.navs{
+    position: sticky;
+    top: 10px;
+    left: 10px;
+    margin: 10px 10px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.logoText{
+
+    width: 100%;
+    height: 450px;
+    /* background-image: linear-gradient(to right,#000,#006); */
+    background-color: orangered;
+    /* background-image: url(./../images/globa.svg); */
+    display: flex;
+    flex-direction: column;
+    /* color: #dd4b39; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cText{
+    font-family: newf;
+    font-size: 65px;
+    /* color: orangered; */
+    color: white;
+
+}
+
+.Cret{
+    font-family: newf;
+    font-size: 55px;
+    /* color: orangered; */
+    color: white;
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 85%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: orangered;
+  }
+  
+  .facebook {
+    background: #000;
+    color: white;
+  }
+  
+  /* .twitter {
+    background: #55ACEE;
+    color: white;
+  } */
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  /* .youtube {
+    background: #bb0000;
+    color: white;
+  } */
+
+
+.graph{
+    margin-top: 20px;
+}
+
+.India{
+    text-align: center;
+    font-family: newf;
+    font-size: 36px;
+}
+
+
+
+
+.graphs{
+
+  margin-top: 25px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .graphs{
+
+    overflow-x: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+  #myChart{
+    width: 300px;
+  }
+
+  #myChart2{
+    width: 301px;
+  }
+
+  .pets{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+
+.c{
+  color: orangered;
+
+}
+
+  .thead-dark{
+    background-color: orangered;
+    color: white;
+  }
+
+  .tables {
+    /* width: 600px; */
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  tr:hover{
+    background-color: rgba(25,45,60,0.2);
+  }
+
+.myth{
+  font-family: newf;
+  font-size: 45px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.f{
+  color: #dd4b39;
+}
+
+
+.getDetails{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btnlink {
+  text-decoration: none;
+  color: #dd4b39;
+  font-size: 25px;
+}
+
+td {
+  font-weight: 600;
+  text-align: center;
+}
+
+th{
+  text-align: center;
+}
+
+.pets{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 350px;
+  height: 350px;
+  margin-top: 20px;
+  border-radius:50%;
+}
+
+.mf{
+  /* background-image: url(./../images/intro.jpg); */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myths{
+  color: black;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* background-image: url(./../images/intro.jpg); */
+  margin-top: 25px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.fact{
+  color: black;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* background-image: url(./../images/intro.jpg); */
+  margin-top: 25px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+
+  .pets{
+
+  height: 300px;
+  width: 300px;
+  }
+
+
+}
+
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+
+.seeit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.kmore{
+  background-color: orangered;
+  color: white;
+  margin-bottom: 19px;
+}
+
+.ohc
+{
+  font-family: newf;
+}
+
+.fullsc{
+  text-align: center;
+  color: #dd4b39;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\; */
+  font-size:25px;
+  font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+  
+}
+
+.boxes
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  /* border: 1px solid; */
+}
+.svs{
+  width: 200px;
+  height: 200px;
+}
+.texts{
+  text-align: center;
+}
+
+
+.top5{
+  text-align: center;
+  font-weight: 900;
+  font-size: 35px;
+  font-family: newf;
+}
+
+.tops{
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .tops{
+    overflow-x: auto;
+    /* width: 350px; */
+  }
+ .mycharts {
+   width: 300px;
+   overflow-x: auto;
+ }
+
+
+}
+
+
+.news {
+
+  margin-top: 25px;
+
+}
+
+.newsH{
+font-weight: 600;
+font-style: oblique;
+font-family: newf;
+/* text-align: center; */
+
+}
+
+
+
+
+.ihelp {
+  text-align: center;
+}
+
+
+.carsdf{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 900px) {
+
+
+  .carsdf{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+
+}
+
+.emer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.o-ve {
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+/* //footer  */
+.foot{
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.moreinfo{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.ct {
+  color: #dd4b39;
+  text-align: center;
+  text-decoration: none;
+}
+/* ////////////////  */
+
+
+.duties{
+  margin-top: 25px;
+}
+.duty{
+  margin-top: 10px;
+  font-size: 35px;
+  font-family: newf;
+  width: 100%;
+  /* position: relative; */
+}
+
+.picduty{
+ 
+  background-image: url(./../images/Masks.png);
+  background-repeat: repeat;
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+  /* position: relative; */
+}
+
+.stopspred{
+  font-size: 35px;
+  width: 50%;
+  text-align: left;
+  background: orangered;
+  /* background-size: 200px; */
+  word-wrap: break-word;
+}
+
+.article{
+  margin-top: 15px;
+  /* letter-spacing: 2px; */
+}
+
+.ula{
+
+  font-size: 22px;
+  /* list-style: number; */
+  /* list-; */
+  list-style-type: decimal;
+  /* color: #dd4b39; */
+}
+
+
+.stay {
+  color: #dd4b39;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 23px;
+}
+
+.heads{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 1px;
+  letter-spacing: 2px;
+ 
+
+}
+
+
+.menyItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* height: 10; */
+  /* height: max-content; */
+  /* background-image: url(./../images/designMenu.svg); */
+}
+
+.ctr{
+  text-decoration: none;
+  color: #dd4b39;
+  letter-spacing: 2px;
+  font-size: 21px;
+  text-align: center;
+  margin-top: 15px;
+  
+}
+
+.avtaer{
+  width: 100%;
+  height: 120px;
+}
